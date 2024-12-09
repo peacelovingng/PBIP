@@ -12,7 +12,7 @@ This Power BI dashboard provides an interactive and insightful view of historica
 
 ## 🔍 Features
 
-- **Interactive Medal Analysis**: View medal counts by country, sport, and year.
+- **Interactive Medal Analysis**: View medal counts by gender, country, sport, and year.
 - **Time Series Trends**: Explore how countries' performances have evolved over time.
 - **Sports Performance Breakdown**: Analyze which sports contributed most to each country's success.
 - **Custom Filters**: Drill down into specific Olympics years, continents, or athletes.
