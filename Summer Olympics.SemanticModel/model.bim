@@ -25,8 +25,1334 @@
         "name": "en-US",
         "linguisticMetadata": {
           "content": {
+            "Entities": {
+              "summer": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "summer": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "straw-hat": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "temporary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "travelling": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "traveling": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "summertime": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "solstice": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "midsummer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "season": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "summer.athlete": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Athlete"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "athlete": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sportsperson": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "contestant": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "competitor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "player": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "participant": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "summer.city": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "City"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "city": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "metropolis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "municipality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "town": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "metropolitan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "summer.country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Country"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "country": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "summer.discipline": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Discipline"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "discipline": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "punishment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "correction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "chastisement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "castigation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "restraint": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "regulation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "strictness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "mastery": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "continence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "self-control": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "summer.event": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Event"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "event": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "occurrence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "affair": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "episode": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "occasion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "happening": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "incident": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "experience": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "consequence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "aftermath": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "upshot": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "summer.gender": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Gender"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "gender": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sexuality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "sex": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "summer.medal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Medal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "memento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "distinction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "kudos": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "accolade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "award": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "decoration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "honor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "souvenir": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "laurel": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "summer.sport": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Sport"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sport": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "diversion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "amusement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "hobby": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pastime": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "entertainment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "game": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "activity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "summer.total_medals": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Total Medals"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total medals": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "medals": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "aggregate medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "total memento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total distinction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total accolade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "memento": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "distinction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "accolade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "total award": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "total decoration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "Gold Medals Won": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Silver Medals Won": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Bronze Medals Won": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "summer.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "summer",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              }
+            },
             "Language": "en-US",
-            "Version": "1.0.0"
+            "Relationships": {
+              "summer_has_athlete": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.athlete"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_athletes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.athlete": {
+                    "Target": {
+                      "Entity": "summer.athlete"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_city": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.city"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_cities",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.city": {
+                    "Target": {
+                      "Entity": "summer.city"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_country": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.country"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_countries",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.country": {
+                    "Target": {
+                      "Entity": "summer.country"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_discipline": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.discipline"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_disciplines",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.discipline": {
+                    "Target": {
+                      "Entity": "summer.discipline"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_event": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.event"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_events",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.event": {
+                    "Target": {
+                      "Entity": "summer.event"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_gender": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.gender"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_genders",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.gender": {
+                    "Target": {
+                      "Entity": "summer.gender"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_medal": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.medal"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_medals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.medal": {
+                    "Target": {
+                      "Entity": "summer.medal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_sport": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.sport"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_sports",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.sport": {
+                    "Target": {
+                      "Entity": "summer.sport"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_total_medals": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.total_medals"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_total_medals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.total_medals": {
+                    "Target": {
+                      "Entity": "summer.total_medals"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "summer.year"
+                      },
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "ID": "summers_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.year": {
+                    "Target": {
+                      "Entity": "summer.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_in_city": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "summers_are_in_cities",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "summer.city"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.city": {
+                    "Target": {
+                      "Entity": "summer.city"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "summer.city"
+                  }
+                },
+                "State": "Generated"
+              },
+              "summer_in_country": {
+                "Binding": {
+                  "ConceptualEntity": "summer"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "summers_are_in_countries",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "summer.country"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "summer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "summer": {
+                    "Target": {
+                      "Entity": "summer"
+                    }
+                  },
+                  "summer.country": {
+                    "Target": {
+                      "Entity": "summer.country"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "summer.country"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
           },
           "contentType": "json"
         }
@@ -172,6 +1498,14 @@
           }
         ],
         "lineageTag": "cca83ed7-cb4f-4233-8a82-8461086783bb",
+        "measures": [
+          {
+            "name": "Total Medals",
+            "expression": "COUNT(summer[Medal])",
+            "formatString": "#,0",
+            "lineageTag": "754f813c-a56f-4a0f-910d-5189c117f489"
+          }
+        ],
         "partitions": [
           {
             "name": "summer",
