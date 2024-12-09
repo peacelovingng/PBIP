@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Summer Olympics"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "907f8729-6359-4ad9-b5ee-73f0f964540a"
+  }
+}

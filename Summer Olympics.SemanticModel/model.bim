@@ -1,0 +1,208 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"summer\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1203.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-NG",
+    "tables": [
+      {
+        "name": "summer",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8ba54f02-5276-4867-b4ac-f1c0ffc88948",
+            "sourceColumn": "Year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "City",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3620aef2-9997-4b31-86a8-38912a469065",
+            "sourceColumn": "City",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sport",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cdfd747b-04c1-4de9-bc55-d0857761ba92",
+            "sourceColumn": "Sport",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Discipline",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a82559d0-312e-4b3d-ae4d-38b2ed3c92a2",
+            "sourceColumn": "Discipline",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Athlete",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7cfd8eb3-1838-4363-a1ad-c4fae3e6a86b",
+            "sourceColumn": "Athlete",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "170a9c69-ec59-433c-a625-a29e2b907b58",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f5da476f-ad44-407e-93df-af9515411bbc",
+            "sourceColumn": "Gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Event",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7443b22f-803c-444c-8f0c-6eb650e6ec73",
+            "sourceColumn": "Event",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Medal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1ce50828-2d27-465c-887a-6f6bfcc86508",
+            "sourceColumn": "Medal",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "cca83ed7-cb4f-4233-8a82-8461086783bb",
+        "partitions": [
+          {
+            "name": "summer",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\Olawale Ahmed\\Desktop\\POWER BI RESOURCES\\summer.csv\"),[Delimiter=\",\", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Year\", Int64.Type}, {\"City\", type text}, {\"Sport\", type text}, {\"Discipline\", type text}, {\"Athlete\", type text}, {\"Country\", type text}, {\"Gender\", type text}, {\"Event\", type text}, {\"Medal\", type text}}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Changed Type\", each true),",
+                "    #\"Capitalized Each Word\" = Table.TransformColumns(#\"Filtered Rows\",{{\"City\", Text.Proper, type text}}),",
+                "    #\"Trimmed Text\" = Table.TransformColumns(#\"Capitalized Each Word\",{{\"City\", Text.Trim, type text}}),",
+                "    #\"Capitalized Each Word1\" = Table.TransformColumns(#\"Trimmed Text\",{{\"Sport\", Text.Proper, type text}}),",
+                "    #\"Trimmed Text1\" = Table.TransformColumns(#\"Capitalized Each Word1\",{{\"Sport\", Text.Trim, type text}}),",
+                "    #\"Capitalized Each Word2\" = Table.TransformColumns(#\"Trimmed Text1\",{{\"Discipline\", Text.Proper, type text}}),",
+                "    #\"Trimmed Text2\" = Table.TransformColumns(#\"Capitalized Each Word2\",{{\"Discipline\", Text.Trim, type text}}),",
+                "    #\"Capitalized Each Word3\" = Table.TransformColumns(#\"Trimmed Text2\",{{\"Athlete\", Text.Proper, type text}}),",
+                "    #\"Trimmed Text3\" = Table.TransformColumns(#\"Capitalized Each Word3\",{{\"Athlete\", Text.Trim, type text}, {\"Country\", Text.Trim, type text}}),",
+                "    #\"Capitalized Each Word4\" = Table.TransformColumns(#\"Trimmed Text3\",{{\"Gender\", Text.Proper, type text}}),",
+                "    #\"Trimmed Text4\" = Table.TransformColumns(#\"Capitalized Each Word4\",{{\"Gender\", Text.Trim, type text}, {\"Event\", Text.Trim, type text}}),",
+                "    #\"Capitalized Each Word5\" = Table.TransformColumns(#\"Trimmed Text4\",{{\"Event\", Text.Proper, type text}, {\"Medal\", Text.Proper, type text}}),",
+                "    #\"Trimmed Text5\" = Table.TransformColumns(#\"Capitalized Each Word5\",{{\"Medal\", Text.Trim, type text}})",
+                "in",
+                "    #\"Trimmed Text5\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
