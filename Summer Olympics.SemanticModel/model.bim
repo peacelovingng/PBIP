@@ -753,7 +753,7 @@
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "summer",
-                    "ConceptualProperty": "Total Medals"
+                    "ConceptualProperty": "TotalMedals"
                   }
                 },
                 "State": "Generated",
@@ -1500,7 +1500,7 @@
         "lineageTag": "cca83ed7-cb4f-4233-8a82-8461086783bb",
         "measures": [
           {
-            "name": "Total Medals",
+            "name": "TotalMedals",
             "expression": "COUNT(summer[Medal])",
             "formatString": "#,0",
             "lineageTag": "754f813c-a56f-4a0f-910d-5189c117f489"

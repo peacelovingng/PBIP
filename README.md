@@ -5,6 +5,7 @@ Welcome to the **Summer Olympics Medals Analysis** project repository! This repo
 ---
 
 ## 📊 Project Overview
+git rm ".\Summer Olympics.Report\README.md"
 
 This Power BI dashboard provides an interactive and insightful view of historical Summer Olympics data. The goal is to explore medal distribution trends across countries, sports, and years, helping users gain meaningful insights into the Olympic Games' history.
 
@@ -12,7 +13,7 @@ This Power BI dashboard provides an interactive and insightful view of historica
 
 ## 🔍 Features
 
-- **Interactive Medal Analysis**: View medal counts by gender, country, sport, and year.
+- **Interactive Medal Analysis**: View medal counts by country, sport, and year.
 - **Time Series Trends**: Explore how countries' performances have evolved over time.
 - **Sports Performance Breakdown**: Analyze which sports contributed most to each country's success.
 - **Custom Filters**: Drill down into specific Olympics years, continents, or athletes.
